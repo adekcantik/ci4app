@@ -29,7 +29,6 @@ class Home extends BaseController
 			'nik' => 'required',
 			'email' => 'required',
 			'phone' => 'required',
-			'department' => 'required',
 			'message' => 'required'
 		])) {
 
@@ -42,7 +41,6 @@ class Home extends BaseController
 			'nama' => $this->request->getVar('nama'),
 			'email' => $this->request->getVar('email'),
 			'phone' => $this->request->getVar('phone'),
-			'department' => $this->request->getVar('department'),
 			'message' => $this->request->getVar('message')
 		];
 		$this->dbpengaduan->save($data);
