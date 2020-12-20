@@ -41,7 +41,8 @@ class Home extends BaseController
 			'nama' => $this->request->getVar('nama'),
 			'email' => $this->request->getVar('email'),
 			'phone' => $this->request->getVar('phone'),
-			'message' => $this->request->getVar('message')
+			'message' => $this->request->getVar('message'),
+			'status' => 'Diterima'
 		];
 		$this->dbpengaduan->save($data);
 

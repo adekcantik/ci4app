@@ -8,5 +8,6 @@ class PengaduanModel extends Model
 {
     protected $table = 'pengaduan';
     protected $useTimestamps = true;
-    protected $allowedFields = ['nik', 'nama', 'email', 'phone', 'message'];
+    protected $useSoftDeletes = true;
+    protected $allowedFields = ['nik', 'nama', 'email', 'phone', 'department', 'message', 'status', 'done_at'];
 }

@@ -30,8 +30,8 @@
                 <?php endif; ?>
                 <form class="p-2" action="<?= base_url('admin/login') ?>" method="POST">
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" name="email">
+                        <label for="exampleInputEmail1" class="form-label">NIK</label>
+                        <input type="text" class="form-control" name="nik">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
