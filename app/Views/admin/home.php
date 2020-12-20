@@ -12,12 +12,12 @@
     <title>Login</title>
 </head>
 
-<body>
+<body style="background-image: url('/assets/img/gray-bg.jpg');">
 
     <div class="container mt-5">
         <div class="row">
             <h3 class="text-center">Login</h3>
-            <div class="col-4 mx-auto border rounded">
+            <div class="col-4 mx-auto border rounded bg-white">
                 <?php if ($validation->getErrors()) : ?>
                     <div class="alert alert-danger mt-2" role="alert">
                         <?= $validation->listerrors(); ?>
