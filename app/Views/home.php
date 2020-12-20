@@ -160,7 +160,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>Watch
+                    <h3>Nonton
                         <span> Video</span>
                     </h3>
                     <div class="space-25"></div>
@@ -204,39 +204,38 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="form-group">
-                            <input class="form-control" type="number" name="nik" placeholder="Enter Your NIK" required value="<?= old('nik') ?>"></input>
+                            <input class="form-control" type="number" name="nik" placeholder="Masukan NIK" required value="<?= old('nik') ?>"></input>
                             <span class="focus-border"></span>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
-                            <input class="form-control" type="text" name="nama" placeholder="Enter Your Name" value="<?= old('nama') ?>" required></input>
+                            <input class="form-control" type="text" name="nama" placeholder="Masukan Nama" value="<?= old('nama') ?>" required></input>
                             <span class="focus-border"></span>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" placeholder="Enter Your email" value="<?= old('email') ?>" required>
+                            <input type="email" class="form-control" name="email" placeholder="Masukan email" value="<?= old('email') ?>" required>
                             <span class="focus-border"></span>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="tel" class="form-control" name="phone" placeholder="Enter Your phone" value="<?= old('phone') ?>" required>
+                            <input type="tel" class="form-control" name="phone" placeholder="Masukan No. Handphone" value="<?= old('phone') ?>" required>
                             <span class="focus-border"></span>
                         </div>
                     </div>
 
                     <div class="col-12">
                         <div class="form-group">
-                            <textarea class="form-control" rows="4" name="message" placeholder="Enter Your Message" required><?= old('message') ?></textarea>
+                            <textarea class="form-control" rows="4" name="message" placeholder="Masukan Deskripsi" required><?= old('message') ?></textarea>
                             <span class="focus-border"></span>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="space-25"></div>
-                        <button type="submit" class="btn btn-primary shadow btn-colord btn-theme"><span>Send
-                                complaint</span></button>
+                        <button type="submit" class="btn btn-primary shadow btn-colord btn-theme"><span>Kirim Pengaduan</span></button>
                     </div>
                 </div>
             </form>
